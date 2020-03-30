@@ -8,7 +8,8 @@ def find_even_values(src)
     while y < src[x].length do
       if src[x][y]%2 === 0
         puts src[x][y]
-        y+=1
+      end
+      y+=1
     end
     x+=1
   end
